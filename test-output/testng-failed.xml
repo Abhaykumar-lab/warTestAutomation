@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Covid19 The Game Test Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Covid19 Game Test Cases(failed)">
+    <classes>
+      <class name="com.covid19thegame.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="createUserAndUpdateScore" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.covid19thegame.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- Covid19 Game Test Cases(failed) -->
+</suite> <!-- Failed suite [Covid19 The Game Test Automation Test Suite] -->

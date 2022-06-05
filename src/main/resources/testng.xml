@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Covid19 The Game Test Automation Test Suite">
+
+
+	
+
+
+	<test name="Covid19 Game Test Cases">
+		<classes>
+			<class name="com.covid19thegame.qa.testcases.RegistrationPageTest"></class>
+			<class name="com.covid19thegame.qa.testcases.LoginPageTest"></class>			
+		</classes>
+	</test>
+</suite>
